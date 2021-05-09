@@ -33,6 +33,8 @@ func main() {
 		2.复合数据类型
 			array，slece，map，function，pointer，struct，interface，channel。。。
 	*/
+
+	// 1.布尔类型
 	var b1 bool
 	b1 = true
 	fmt.Printf("%T,%t\n", b1, b1)
@@ -63,7 +65,7 @@ func main() {
 	var i7 = 100
 	fmt.Printf("%T,%d\n", i7, i7)
 
-	// 浮点
+	// 3.浮点
 	var f1 float32
 	f1 = 3.14
 	fmt.Printf("%T,%.2f\n", f1, f1)
