@@ -38,7 +38,7 @@ func main() {
 	keys := make([]int, 0, len(map1))
 	fmt.Println(keys)
 
-	for k, _ := range map1 {
+	for k := range map1 {
 		keys = append(keys, k)
 	}
 	// 冒泡排序，或者使用sort包下的排序方法
